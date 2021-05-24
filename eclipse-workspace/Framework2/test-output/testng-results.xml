@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Setting up reports and Test getting ready]]>
+    </line>
+    <line>
+      <![CDATA[All Set!! and Test Started]]>
+    </line>
+    <line>
+      <![CDATA[Trying to start browser and application ready]]>
+    </line>
+    <line>
+      <![CDATA[Browser launched and Application test running]]>
+    </line>
+    <line>
+      <![CDATA[Test About to end]]>
+    </line>
+    <line>
+      <![CDATA[Test Ended]]>
+    </line>
+    <line>
+      <![CDATA[Test About to end]]>
+    </line>
+    <line>
+      <![CDATA[Test Ended]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27145" started-at="2021-05-18T16:01:16 IST" finished-at="2021-05-18T16:01:43 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="27145" started-at="2021-05-18T16:01:16 IST" finished-at="2021-05-18T16:01:43 IST">
+      <class name="com.automate.testcases.LoginTest">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.automate.testcases.LoginTest@67b467e9]" name="setUpSuite" is-config="true" duration-ms="2075" started-at="2021-05-18T16:01:14 IST" finished-at="2021-05-18T16:01:16 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Setting up reports and Test getting ready]]>
+            </line>
+            <line>
+              <![CDATA[All Set!! and Test Started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUpSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automate.testcases.LoginTest@67b467e9]" name="setup" is-config="true" duration-ms="18533" started-at="2021-05-18T16:01:16 IST" finished-at="2021-05-18T16:01:35 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Trying to start browser and application ready]]>
+            </line>
+            <line>
+              <![CDATA[Browser launched and Application test running]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:1, instance:com.automate.testcases.LoginTest@67b467e9]" name="loginApp" duration-ms="3293" started-at="2021-05-18T16:01:35 IST" finished-at="2021-05-18T16:01:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automate.testcases.LoginTest@67b467e9]" name="tearDownMethod" is-config="true" duration-ms="2786" started-at="2021-05-18T16:01:38 IST" finished-at="2021-05-18T16:01:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTest.loginApp()[pri:1, instance:com.automate.testcases.LoginTest@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test About to end]]>
+            </line>
+            <line>
+              <![CDATA[Test Ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="logout()[pri:2, instance:com.automate.testcases.LoginTest@67b467e9]" name="logout" duration-ms="4" started-at="2021-05-18T16:01:41 IST" finished-at="2021-05-18T16:01:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automate.testcases.LoginTest@67b467e9]" name="tearDownMethod" is-config="true" duration-ms="1232" started-at="2021-05-18T16:01:41 IST" finished-at="2021-05-18T16:01:42 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logout status=SUCCESS method=LoginTest.logout()[pri:2, instance:com.automate.testcases.LoginTest@67b467e9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test About to end]]>
+            </line>
+            <line>
+              <![CDATA[Test Ended]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automate.testcases.LoginTest@67b467e9]" name="tearDown" is-config="true" duration-ms="1232" started-at="2021-05-18T16:01:42 IST" finished-at="2021-05-18T16:01:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automate.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
